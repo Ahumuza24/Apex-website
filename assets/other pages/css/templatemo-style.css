@@ -32,7 +32,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .green {
-	color: #6E6;
+	color: rgb(249, 104, 0);
 }
 
 main {
@@ -171,7 +171,7 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 100px;
     font-weight: normal;
 }
 
@@ -357,12 +357,12 @@ h5 {
     position: relative;
     z-index: 4;
     background: rgba(0,0,0,0.6);
-    margin-bottom: 40px;
-    padding-bottom: 60px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .site-header {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .site-brand {
@@ -386,31 +386,13 @@ h5 {
 }
 
 .site-banner {
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 .site-banner h2 {
-    font-size: 32px;
+    font-size: 80px;
     font-family: 'robotobold';
-    margin-bottom: 30px;
-}
-
-.subscribe-form {
-    margin-top: 40px;
-}
-
-.subscribe-form #subscribe-email {
-    width: 100%;
-    padding: 10px;
-    background: transparent;
-    border: 1px solid #fff;
-    outline: 0;
-}
-
-@media screen and (max-width: 768px) {
-    .subscribe-form #subscribe-email {
-        margin-bottom: 20px;
-    }
+    margin-bottom: 50px;
 }
 
 
