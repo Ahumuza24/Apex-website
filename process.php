@@ -5,9 +5,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = $_POST["subject"];
     $message = $_POST["message"];
     
+    // Set the recipient's email address
+    $to = "ahumuzacedric@gmail.com";
 
     // Create email headers
-    $to = "ahumuzacedric@gmail.com";
     $headers = "From: $email" . "\r\n";
     $headers .= "Reply-To: $email" . "\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8";
@@ -19,9 +20,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mailBody .= "Message:\n$message";
 
     // Send the email
-    if (mail($recipientEmail, $subject, $mailBody, $headers)) {
+    if (mail($to, $subject, $mailBody, $headers)) {
         echo "Thank you for your message! We'll get back to you soon.";
     } else {
+
         echo "Oops! Something went wrong. Please try again later.";
     }
 }
