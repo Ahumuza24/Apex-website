@@ -4,9 +4,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $subject = $_POST["subject"];
     $message = $_POST["message"];
-    $recipientEmail = $_POST["recipient_email"]; // Retrieve the recipient's email from the hidden input field
+    
 
     // Create email headers
+    $to = "ahumuzacedric@gmail.com";
     $headers = "From: $email" . "\r\n";
     $headers .= "Reply-To: $email" . "\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8";
