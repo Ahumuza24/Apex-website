@@ -1,38 +1,4 @@
-/*
 
-TemplateMo 568 Viral Tech
-
-https://templatemo.com/tm-568-Viral Tech
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -301,7 +267,10 @@ header
 .background-header .main-nav .nav li a {
   color: #fff;
 }
-
+.logo{
+  width: 70px;
+  height: 90px;
+}
 .background-header .main-nav .nav li:hover a {
   color: #fe664e;
 }
@@ -654,9 +623,17 @@ header
   .background-header .nav li a.active:after {
     display: none;
   }
+  .logo{
+    width: 70px;
+    height: 90px;
+  }
 }
 
 @media (max-width: 767px) {
+  .logo{
+    width: 70px;
+    height: 90px;
+  }
   .pre-header ul.info li:last-child {
     display: none;
   }
@@ -766,6 +743,10 @@ header
 }
 
 @media (min-width: 767px) {
+  .logo{
+    width: 70px;
+    height: 90px;
+  }
   .header-area .main-nav .nav {
     display: flex !important;
   }
