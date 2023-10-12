@@ -17,7 +17,11 @@ html, body {
     background-attachment: fixed;
 	font-size: 12px;
 }
-
+.apex_logo{
+width: -5%;
+height: -7%;	
+	}
+	
 .blue {
 	color: #0CF;
 }
@@ -525,6 +529,7 @@ a.menu-toggle-btn {
 	margin-top: 10px;
 	color: #cccccc;
 	}
+	
 .templatemo_form textarea{
 	float: left; 
 	padding: 6px 12px; 
